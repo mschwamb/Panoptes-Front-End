@@ -193,6 +193,16 @@ ProjectPageController = React.createClass
   componentDidMount: ->
     @_boundForceUpdate = @forceUpdate.bind this
     @fetchProjectData @props.params.owner, @props.params.name, @props.user
+      .then =>
+        testPrefs = {
+          links: {
+            project: @state.project.id
+          },
+          preferences: {
+            selected_workflow: '2334'
+          }
+        }
+        setTimeout ( => @setState preferences: testPrefs ), 5000
 
   componentWillReceiveProps: (nextProps) ->
     {owner, name} = nextProps.params

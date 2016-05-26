@@ -24,6 +24,7 @@ EXPERIMENTAL_FEATURES = [
   'worldwide telescope'
   'hide previous marks'
   'column'
+  'nero workflow assignment'
 ]
 
 ProjectToggle = React.createClass
