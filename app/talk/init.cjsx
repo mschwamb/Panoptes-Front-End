@@ -175,7 +175,7 @@ module.exports = React.createClass
           </section>
 
           <section>
-            <ActiveUsers section={@props.section} />
+            <ActiveUsers section={@props.section} project={@props.project} />
           </section>
 
           <section>
