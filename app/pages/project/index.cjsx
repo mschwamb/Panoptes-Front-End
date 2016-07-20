@@ -7,7 +7,7 @@ PotentialFieldGuide = require './potential-field-guide'
 TitleMixin = require '../../lib/title-mixin'
 apiClient = require 'panoptes-client/lib/api-client'
 {sugarClient} = require 'panoptes-client/lib/sugar'
-classNames = require 'classNames'
+classNames = require 'classnames'
 
 counterpart.registerTranslations 'en',
   project:
