@@ -96,7 +96,7 @@ COMET_HUNTERS_VOLCROWE_EXPERIMENT_INTERVENTIONS = {
     }
     "learning-statement-5": {
       title: "Interesting Fact",
-      body: "Main-belt comets are a new class of minor planets recently discovered in our Solar System. Less than 20 have been discovered to date."
+      body: "Main-belt comets are a new class of minor planets recently discovered in our Solar System. Fewer than 20 have been discovered to date."
       type: intervention_config.INTERVENTION_TYPES.STATEMENT
     }
     "valued-question-1": {
